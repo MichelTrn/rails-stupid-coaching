@@ -1,0 +1,16 @@
+<div class = "container justify-content-center">
+  <h1>Stupid Coaching</h1>
+  <div class ="border-start p-3">
+    <p><%=@question%></p>
+    <p><%="-You"%></p>
+  </div>
+  <div style ="background-color:#FFFFE1" class ="border-start p-3 mt-3">
+    <p><strong><%=@response%></strong></p>
+    <p><%="-Your coach"%></p>
+  </div>
+
+  <div class ="p-2">
+    <%= link_to "Ask a new question", ask_path %>
+  </div>
+
+</div>
